@@ -1,0 +1,18 @@
+name: ez_memprof
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - memray
+  - numpy
+  - pandas
+  - scipy
+  - snowflake-snowpark-python
+  # Dev
+  - pytest
+
+  # Do we need these?
+  - jupyterlab
+  - matplotlib
+  - ipython
